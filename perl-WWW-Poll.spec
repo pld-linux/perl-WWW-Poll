@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	WWW
 %define	pnam	Poll
-Summary:	WWW-Poll perl module
-Summary(pl):	Modu³ perla WWW-Poll
+Summary:	WWW::Poll perl module
+Summary(pl):	Modu³ perla WWW::Poll
 Name:		perl-WWW-Poll
 Version:	0.01
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-WWW-Poll - Perl extension to build web polls.
+WWW::Poll - Perl extension to build web polls.
 
 %description -l pl
-WWW-Poll - modu³ do tworzenia ankiet na stronach www.
+WWW::Poll - modu³ do tworzenia ankiet na stronach www.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
