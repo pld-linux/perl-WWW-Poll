@@ -66,6 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitelib}/WWW/Poll.pm
 # empty utosplit.ix
 #%dir %{perl_sitelib}/auto/WWW/Poll
-#%{perl_sitelib}/auto/WWW/Poll/autosplit.ix
+#%%{perl_sitelib}/auto/WWW/Poll/autosplit.ix
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
