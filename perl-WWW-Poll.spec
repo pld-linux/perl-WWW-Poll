@@ -1,11 +1,30 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	WWW
 %define	pnam	Poll
-Summary:	WWW::Poll perl module
-Summary(pl):	Modu³ perla WWW::Poll
+Summary:	WWW::Poll Perl module
+Summary(cs):	Modul WWW::Poll pro Perl
+Summary(da):	Perlmodul WWW::Poll
+Summary(de):	WWW::Poll Perl Modul
+Summary(es):	Módulo de Perl WWW::Poll
+Summary(fr):	Module Perl WWW::Poll
+Summary(it):	Modulo di Perl WWW::Poll
+Summary(ja):	WWW::Poll Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	WWW::Poll ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul WWW::Poll
+Summary(pl):	Modu³ Perla WWW::Poll
+Summary(pt):	Módulo de Perl WWW::Poll
+Summary(pt_BR):	Módulo Perl WWW::Poll
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl WWW::Poll
+Summary(sv):	WWW::Poll Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl WWW::Poll
+Summary(zh_CN):	WWW::Poll Perl Ä£¿é
 Name:		perl-WWW-Poll
 Version:	0.01
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,6 +45,7 @@ WWW::Poll - modu³ do tworzenia ankiet na stronach www.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -42,7 +62,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_sitelib}/WWW/Poll.pm
-%dir %{perl_sitelib}/auto/WWW/Poll
-%{perl_sitelib}/auto/WWW/Poll/autosplit.ix
+# empty utosplit.ix
+#%dir %{perl_sitelib}/auto/WWW/Poll
+#%{perl_sitelib}/auto/WWW/Poll/autosplit.ix
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
