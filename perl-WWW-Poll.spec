@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	WWW
 %define	pnam	Poll
-%include	/usr/lib/rpm/macros.perl
 Summary:	WWW-Poll perl module
 Summary(pl):	Modu³ perla WWW-Poll
 Name:		perl-WWW-Poll
 Version:	0.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ WWW-Poll - Perl extension to build web polls.
 WWW-Poll - modu³ do tworzenia ankiet na stronach www.
 
 %prep
-%setup -q -n WWW-Poll-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
