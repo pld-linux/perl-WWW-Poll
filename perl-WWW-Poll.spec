@@ -24,13 +24,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl WWW::Poll
 Summary(zh_CN):	WWW::Poll Perl Ä£¿é
 Name:		perl-WWW-Poll
 Version:	0.01
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-undef.patch
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -45,7 +45,8 @@ WWW::Poll - modu³ do tworzenia ankiet na stronach www.
 %patch -p1
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -63,9 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/WWW/Poll.pm
+%{perl_vendorlib}/WWW/Poll.pm
 # empty utosplit.ix
-#%dir %{perl_sitelib}/auto/WWW/Poll
-#%%{perl_sitelib}/auto/WWW/Poll/autosplit.ix
+#%dir %{perl_vendorlib}/auto/WWW/Poll
+#%%{perl_vendorlib}/auto/WWW/Poll/autosplit.ix
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
