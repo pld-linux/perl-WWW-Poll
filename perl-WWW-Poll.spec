@@ -25,7 +25,7 @@ WWW-Poll - modu³ do tworzenia ankiet na stronach www.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
