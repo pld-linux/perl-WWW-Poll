@@ -14,7 +14,7 @@ Summary(fr):	Module Perl WWW::Poll
 Summary(it):	Modulo di Perl WWW::Poll
 Summary(ja):	WWW::Poll Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	WWW::Poll ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul WWW::Poll
+Summary(nb):	Perlmodul WWW::Poll
 Summary(pl):	Modu³ Perla WWW::Poll
 Summary(pt):	Módulo de Perl WWW::Poll
 Summary(pt_BR):	Módulo Perl WWW::Poll
