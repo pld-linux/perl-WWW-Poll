@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl WWW::Poll
 Summary(zh_CN):	WWW::Poll Perl дё©И
 Name:		perl-WWW-Poll
 Version:	0.01
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
