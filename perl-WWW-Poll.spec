@@ -40,7 +40,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 WWW::Poll - Perl extension to build web polls.
 
 %description -l pl
-WWW::Poll - modu³ do tworzenia ankiet na stronach www.
+WWW::Poll - modu³ do tworzenia ankiet na stronach WWW.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
