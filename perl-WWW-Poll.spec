@@ -28,6 +28,7 @@ Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Patch0:		%{name}-undef.patch
 BuildRequires:	perl >= 5.6
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
@@ -41,6 +42,7 @@ WWW::Poll - modu³ do tworzenia ankiet na stronach www.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -p1
 
 %build
 perl Makefile.PL
