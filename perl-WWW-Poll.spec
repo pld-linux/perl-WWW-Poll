@@ -25,7 +25,8 @@ Summary(zh_CN):	WWW::Poll Perl Ä£¿é
 Name:		perl-WWW-Poll
 Version:	0.01
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9a67e34b5148440db0762ba7a66e5c0b
