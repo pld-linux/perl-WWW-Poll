@@ -1,0 +1,12 @@
+--- WWW-Poll-0.01/Poll.pm.old	Fri Sep 20 12:01:16 2002
++++ WWW-Poll-0.01/Poll.pm	Fri Sep 20 12:01:16 2002
+@@ -278,7 +278,8 @@
+ 	# get highest vote
+ 	my @maxvotes = sort { $b<=>$a } @votes;
+ 	my $maxvote = $maxvotes[0];
+-	undef (@maxvotes,@votes);
++	undef @maxvotes;
++	undef @votes;
+ 	
+ 	if ( $maxvote<1 ) { $maxvote=1; }
+ 	#my $factor = MAXWIDTH/(MAXWIDTH-$maxvote);
