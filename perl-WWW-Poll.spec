@@ -47,7 +47,7 @@ WWW::Poll - modu³ do tworzenia ankiet na stronach www.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
