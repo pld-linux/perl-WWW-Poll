@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	WWW
-%define	pnam	Poll
+%define		pdir	WWW
+%define		pnam	Poll
 Summary:	WWW::Poll Perl module
 Summary(cs):	Modul WWW::Poll pro Perl
 Summary(da):	Perlmodul WWW::Poll
