@@ -6,22 +6,22 @@
 %define		pdir	WWW
 %define		pnam	Poll
 Summary:	WWW::Poll Perl module
-Summary(cs):	Modul WWW::Poll pro Perl
-Summary(da):	Perlmodul WWW::Poll
-Summary(de):	WWW::Poll Perl Modul
-Summary(es):	MÛdulo de Perl WWW::Poll
-Summary(fr):	Module Perl WWW::Poll
-Summary(it):	Modulo di Perl WWW::Poll
-Summary(ja):	WWW::Poll Perl •‚•∏•Â°º•Î
-Summary(ko):	WWW::Poll ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul WWW::Poll
-Summary(pl):	Modu≥ Perla WWW::Poll
-Summary(pt):	MÛdulo de Perl WWW::Poll
-Summary(pt_BR):	MÛdulo Perl WWW::Poll
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl WWW::Poll
-Summary(sv):	WWW::Poll Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl WWW::Poll
-Summary(zh_CN):	WWW::Poll Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul WWW::Poll pro Perl
+Summary(da.UTF-8):   Perlmodul WWW::Poll
+Summary(de.UTF-8):   WWW::Poll Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl WWW::Poll
+Summary(fr.UTF-8):   Module Perl WWW::Poll
+Summary(it.UTF-8):   Modulo di Perl WWW::Poll
+Summary(ja.UTF-8):   WWW::Poll Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   WWW::Poll ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul WWW::Poll
+Summary(pl.UTF-8):   Modu≈Ç Perla WWW::Poll
+Summary(pt.UTF-8):   M√≥dulo de Perl WWW::Poll
+Summary(pt_BR.UTF-8):   M√≥dulo Perl WWW::Poll
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl WWW::Poll
+Summary(sv.UTF-8):   WWW::Poll Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl WWW::Poll
+Summary(zh_CN.UTF-8):   WWW::Poll Perl Ê®°Âùó
 Name:		perl-WWW-Poll
 Version:	0.01
 Release:	12
@@ -39,8 +39,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 WWW::Poll - Perl extension to build web polls.
 
-%description -l pl
-WWW::Poll - modu≥ do tworzenia ankiet na stronach WWW.
+%description -l pl.UTF-8
+WWW::Poll - modu≈Ç do tworzenia ankiet na stronach WWW.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
