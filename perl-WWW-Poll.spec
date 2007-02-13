@@ -6,22 +6,22 @@
 %define		pdir	WWW
 %define		pnam	Poll
 Summary:	WWW::Poll Perl module
-Summary(cs.UTF-8):   Modul WWW::Poll pro Perl
-Summary(da.UTF-8):   Perlmodul WWW::Poll
-Summary(de.UTF-8):   WWW::Poll Perl Modul
-Summary(es.UTF-8):   Módulo de Perl WWW::Poll
-Summary(fr.UTF-8):   Module Perl WWW::Poll
-Summary(it.UTF-8):   Modulo di Perl WWW::Poll
-Summary(ja.UTF-8):   WWW::Poll Perl モジュール
-Summary(ko.UTF-8):   WWW::Poll 펄 모줄
-Summary(nb.UTF-8):   Perlmodul WWW::Poll
-Summary(pl.UTF-8):   Moduł Perla WWW::Poll
-Summary(pt.UTF-8):   Módulo de Perl WWW::Poll
-Summary(pt_BR.UTF-8):   Módulo Perl WWW::Poll
-Summary(ru.UTF-8):   Модуль для Perl WWW::Poll
-Summary(sv.UTF-8):   WWW::Poll Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl WWW::Poll
-Summary(zh_CN.UTF-8):   WWW::Poll Perl 模块
+Summary(cs.UTF-8):	Modul WWW::Poll pro Perl
+Summary(da.UTF-8):	Perlmodul WWW::Poll
+Summary(de.UTF-8):	WWW::Poll Perl Modul
+Summary(es.UTF-8):	Módulo de Perl WWW::Poll
+Summary(fr.UTF-8):	Module Perl WWW::Poll
+Summary(it.UTF-8):	Modulo di Perl WWW::Poll
+Summary(ja.UTF-8):	WWW::Poll Perl モジュール
+Summary(ko.UTF-8):	WWW::Poll 펄 모줄
+Summary(nb.UTF-8):	Perlmodul WWW::Poll
+Summary(pl.UTF-8):	Moduł Perla WWW::Poll
+Summary(pt.UTF-8):	Módulo de Perl WWW::Poll
+Summary(pt_BR.UTF-8):	Módulo Perl WWW::Poll
+Summary(ru.UTF-8):	Модуль для Perl WWW::Poll
+Summary(sv.UTF-8):	WWW::Poll Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl WWW::Poll
+Summary(zh_CN.UTF-8):	WWW::Poll Perl 模块
 Name:		perl-WWW-Poll
 Version:	0.01
 Release:	12
