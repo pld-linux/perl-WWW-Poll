@@ -4,7 +4,6 @@
 
 %define		pdir	WWW
 %define		pnam	Poll
-%include	/usr/lib/rpm/macros.perl
 Summary:	WWW::Poll Perl module
 Summary(cs.UTF-8):	Modul WWW::Poll pro Perl
 Summary(da.UTF-8):	Perlmodul WWW::Poll
