@@ -23,7 +23,7 @@ Summary(uk.UTF-8):	Модуль для Perl WWW::Poll
 Summary(zh_CN.UTF-8):	WWW::Poll Perl 模块
 Name:		perl-WWW-Poll
 Version:	0.01
-Release:	13
+Release:	14
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
